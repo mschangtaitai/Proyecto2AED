@@ -28,6 +28,51 @@ create (pp:Person { name: "Diego Alvarez"})
 create (pp:Person { name: "Manuel Cruz"})
 create (pp:Person { name: "Juan David"})
 create (pp:Person { name: "Emidio Coronado"})
-create (pp:Person { name: "Michael Chan"})
-create (pp:Person { name: "Diego Estrada"})
-create (pp:Person { name: "Isabel Ortiz"})
+
+match (x)-[r:musica]->(y) where id(x)=67 and id(y)=62
+match (x)-[r:peliculas]->(y) where id(x)=67 and id(y)=3
+match (x)-[r:comida]->(y) where id(x)=67 and id(y)=23
+match (x)-[r:edad]->(y) where id(x)=67 and id(y)=25
+match (x)-[r:preferencias]->(y) where id(x)=67 and id(y)=5
+
+match (x)-[r:musica]->(y) where id(x)=68 and id(y)=61
+match (x)-[r:peliculas]->(y) where id(x)=68 and id(y)=1
+match (x)-[r:comida]->(y) where id(x)=68 and id(y)=4
+match (x)-[r:edad]->(y) where id(x)=68 and id(y)=64
+match (x)-[r:preferencias]->(y) where id(x)=68 and id(y)=5
+
+match (x)-[r:musica]->(y) where id(x)=69 and id(y)=60
+match (x)-[r:peliculas]->(y) where id(x)=69 and id(y)=2
+match (x)-[r:comida]->(y) where id(x)=69 and id(y)=22
+match (x)-[r:edad]->(y) where id(x)=69 and id(y)=25
+match (x)-[r:preferencias]->(y) where id(x)=69 and id(y)=6
+
+match (x)-[r:musica]->(y) where id(x)=70 and id(y)=21
+match (x)-[r:peliculas]->(y) where id(x)=70 and id(y)=63
+match (x)-[r:comida]->(y) where id(x)=70 and id(y)=24
+match (x)-[r:edad]->(y) where id(x)=70 and id(y)=65
+match (x)-[r:preferencias]->(y) where id(x)=70 and id(y)=6
+
+match (x)-[r:musica]->(y) where id(x)=71 and id(y)=62
+match (x)-[r:peliculas]->(y) where id(x)=71 and id(y)=1
+match (x)-[r:comida]->(y) where id(x)=71 and id(y)=23
+match (x)-[r:edad]->(y) where id(x)=71 and id(y)=25
+match (x)-[r:preferencias]->(y) where id(x)=71 and id(y)=5
+
+match (x)-[r:musica]->(y) where id(x)=72 and id(y)=60
+match (x)-[r:peliculas]->(y) where id(x)=72 and id(y)=63
+match (x)-[r:comida]->(y) where id(x)=72 and id(y)=23
+match (x)-[r:edad]->(y) where id(x)=72 and id(y)=66
+match (x)-[r:preferencias]->(y) where id(x)=72 and id(y)=5
+
+match (x)-[r:musica]->(y) where id(x)=73 and id(y)=21
+match (x)-[r:peliculas]->(y) where id(x)=73 and id(y)=1
+match (x)-[r:comida]->(y) where id(x)=73 and id(y)=24
+match (x)-[r:edad]->(y) where id(x)=73 and id(y)=66
+match (x)-[r:preferencias]->(y) where id(x)=73 and id(y)=5
+
+match (x)-[r:musica]->(y) where id(x)=70 and id(y)=21
+match (x)-[r:peliculas]->(y) where id(x)=70 and id(y)=63
+match (x)-[r:comida]->(y) where id(x)=70 and id(y)=24
+match (x)-[r:edad]->(y) where id(x)=70 and id(y)=65
+match (x)-[r:preferencias]->(y) where id(x)=70 and id(y)=6
