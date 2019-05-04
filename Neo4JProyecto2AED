@@ -21,8 +21,13 @@ create (aa:age { range: "60+"})
 create (aa:preferences { type: "Hombre"})
 create (aa:preferences { type: "Mujer"})
 
-
-
-
-
-
+create (pp:Person { name: "Oscar Lopez"})
+create (pp:Person { name: "Peter Pratdesaba"})
+create (pp:Person { name: "Marcy Peters"})
+create (pp:Person { name: "Diego Alvarez"})
+create (pp:Person { name: "Manuel Cruz"})
+create (pp:Person { name: "Juan David"})
+create (pp:Person { name: "Emidio Coronado"})
+create (pp:Person { name: "Michael Chan"})
+create (pp:Person { name: "Diego Estrada"})
+create (pp:Person { name: "Isabel Ortiz"})
