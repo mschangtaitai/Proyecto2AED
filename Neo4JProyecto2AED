@@ -1,0 +1,28 @@
+create (aa:music { genre: "Rock"})
+create (aa:music { genre: "Reggaeton"})
+create (aa:music { genre: "Banda"})
+create (aa:music { genre: "Electronica"})
+
+create (aa:movies { genre: "Accion"})
+create (aa:movies { genre: "Miedo"})
+create (aa:movies { genre: "Comedia"})
+create (aa:movies { genre: "Tragedia"})
+
+create (aa:food { type: "China"})
+create (aa:food { type: "Italiana"})
+create (aa:food { type: "Guatemalteca"})
+create (aa:food { type: "Comida Rapida"})
+
+create (aa:age { range: "18-25"})
+create (aa:age { range: "26-40"})
+create (aa:age { range: "41-60"})
+create (aa:age { range: "60+"})
+
+create (aa:preferences { type: "Hombre"})
+create (aa:preferences { type: "Mujer"})
+
+
+
+
+
+
